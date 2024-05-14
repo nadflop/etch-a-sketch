@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 100vh;
+    height: 100vh;
+}
+.grid {
+    outline: 1px solid #000;
+    width: 6vh;
+    height: 6vh;
+}
+
