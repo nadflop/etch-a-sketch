@@ -24,8 +24,8 @@ function createGrid(gridNum) {
         for (let j = 0; j < gridNum; j++) {
             const newDiv = document.createElement("div");
             newDiv.className = "grid";
-            newDiv.style.width = (100/gridNum) + "vh";
-            newDiv.style.height = (100/gridNum) + "vh";
+            newDiv.style.width = (80/gridNum) + "vh";
+            newDiv.style.height = (80/gridNum) + "vh";
             container.append(newDiv);
         }
     }
