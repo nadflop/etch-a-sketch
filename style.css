@@ -2,6 +2,19 @@
     margin: 0;
     padding: 0;
 }
+
+.head {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 6px;
+}
+
 #container {
     margin: auto;
     display: flex;
@@ -13,7 +26,5 @@
 }
 .grid {
     outline: 1px solid #000;
-    width: 6vh;
-    height: 6vh;
 }
 
